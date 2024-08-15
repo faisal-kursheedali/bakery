@@ -1,4 +1,5 @@
 import 'package:bakery/presentation/screen/home_screen.dart';
+import 'package:bakery/presentation/screen/splash_screen.dart';
 import 'package:bakery/provider/cart_provider.dart';
 import 'package:bakery/provider/wishlist_provider.dart';
 import 'package:flutter/material.dart';
@@ -28,7 +29,7 @@ class MyApp extends StatelessWidget {
             appBarTheme: const AppBarTheme(centerTitle: true)
             // primaryColor: const Color.fromARGB(255, 93, 172, 236)
             ),
-        home: const HomeScreen(),
+        home: const SplashScreen(),
       ),
     );
   }

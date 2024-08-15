@@ -13,6 +13,7 @@ class CartScreen extends StatelessWidget {
         title: const Text("Cart 🛍️"),
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: "btn1",
         backgroundColor: const Color.fromARGB(255, 247, 178, 178),
         child: const Icon(
           Icons.delete,

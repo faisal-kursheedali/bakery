@@ -14,6 +14,7 @@ class WishlistScreen extends StatelessWidget {
         title: const Text("Wish list ❤️"),
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 'btn2',
         backgroundColor: const Color.fromARGB(255, 247, 178, 178),
         child: const Icon(
           Icons.delete,
